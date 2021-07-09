@@ -5,7 +5,7 @@ const Community = () => {
   return (
     <div>
       {communityData.map((project) => (
-        <Project color="pastelYellow" project={project} key={project.title} />
+        <Project color="yellow" project={project} key={project.title} />
       ))}
     </div>
   );

@@ -5,23 +5,25 @@ import "tailwindcss/tailwind.css";
 const Project = ({ project, color }) => {
   return (
     <div>
-      <h1
-        className={clsx(
-          color === "pastelGreen" && "pastelGreen",
-          color === "pastelRed" && "pastelRed",
-          color === "pastelYellow" && "pastelYellow"
-        )}
-      >
-        {project.title}
-      </h1>
-      {project.imgUrl && (
-        <Image src={project.imgUrl} width={300} height={300} />
-      )}
-      {project.description && <p>Description: {project.description}</p>}
+      <div>
+        <h2
+          className={clsx(
+            color === "green" && "text-green",
+            color === "red" && "text-red",
+            color === "yellow" && "text-yellow"
+          )}
+        >
+          {project.title}
+        </h2>
+        {/* {project.imgUrl && (
+          <Image src={project.imgUrl} width={300} height={300} />
+        )} */}
+        {project.description && <p>Description: {project.description}</p>}
 
-      <hr />
+        <hr />
 
-      {project.date && <p>Date: {project.date}</p>}
+        {project.date && <p>Date: {project.date}</p>}
+      </div>
     </div>
   );
 };

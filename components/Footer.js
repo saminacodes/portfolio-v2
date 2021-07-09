@@ -8,11 +8,10 @@ const Footer = () => {
           <li>Contact</li>
           <li>Resources</li>
         </ul>
-        <ul>
-          </ul>
-        </nav>
+        <ul></ul>
+      </nav>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;

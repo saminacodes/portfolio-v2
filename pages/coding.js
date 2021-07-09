@@ -5,7 +5,7 @@ const Coding = () => {
   return (
     <div>
       {codingData.map((project) => (
-        <Project color="pastelGreen" project={project} key={project.title} />
+        <Project color="green" project={project} key={project.title} />
       ))}
     </div>
   );

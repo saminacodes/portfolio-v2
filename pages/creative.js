@@ -5,7 +5,7 @@ const Creative = () => {
   return (
     <div>
       {creativeData.map((project) => (
-        <Project color="pastelRed" project={project} key={project.title} />
+        <Project color="red" project={project} key={project.title} />
       ))}
     </div>
   );

@@ -4,18 +4,43 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        sm: "480px",
+        md: "768px",
+        lg: "976px",
+        xl: "1440px",
+      },
       colors: {
-        darkGrey: "#292929",
-        pastelGreen: "#96ceb4",
-        pastelRed: "#ff6f69",
-        pastelYellow: "#ffcc5c",
-        pastelPurple: "#9896ce",
-        pastelBlue: "67aaf9",
+        green: {
+          light: "#cbe7da",
+          DEFAULT: "#96ceb4",
+          dark: "#39795b",
+        },
+        red: {
+          light: "#ffb8b5",
+          DEFAULT: "#ff6f69",
+          dark: "#b50600",
+        },
+        yellow: {
+          light: "#ffe5ad",
+          DEFAULT: "#ffcc5c",
+          dark: "#ad7600",
+        },
+        purple: {
+          light: "#cccbe7",
+          DEFAULT: "#9896ce",
+          dark: "#3b3979",
+        },
+        blue: {
+          light: "#b3d5fc",
+          DEFAULT: "#67aaf9",
+          dark: "#0753a9",
+        },
       },
       fontFamily: {
-        sans: ["Roboto", "Helvetica", "Arial", "sans-serif"],
+        sans: ["Share Tech", "Helvetica", "Arial", "sans-serif"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
