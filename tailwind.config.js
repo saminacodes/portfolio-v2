@@ -1,7 +1,7 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
       screens: {
@@ -35,6 +35,11 @@ module.exports = {
           light: "#b3d5fc",
           DEFAULT: "#67aaf9",
           dark: "#0753a9",
+        },
+        grey: {
+          light: "#474747",
+          DEFAULT: "#292929",
+          dark: "#141414",
         },
       },
       fontFamily: {

@@ -1,12 +1,12 @@
 export default [
   {
     icon: "",
-    title: "CodeIllusion",
+    title: "Disney CodeIllusion",
     description: "Use 'saminacodes' for 30% off",
     linkURL: "https://codeillusion.io/",
   },
   {
-    icon: "",
+    icon: "../public/hashnodeIcon",
     title: "Blog",
     description: "Coding and productivity",
     linkURL: "https://samina.dev",
@@ -27,6 +27,6 @@ export default [
     icon: "",
     title: "Polywork",
     description: "Collaborate with me",
-    linkURL: "",
+    linkURL: "https://polywork.com/saminacodes",
   },
 ];
