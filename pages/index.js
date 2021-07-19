@@ -22,7 +22,7 @@ export default function Home() {
         ></script>
       </Head>
 
-      <div className="flex flex-row p-4">
+      <div className="flex flex-row">
         <Link href="/coding">
           <a>Coding</a>
         </Link>
@@ -33,6 +33,10 @@ export default function Home() {
 
         <Link href="/community">
           <a>Community</a>
+        </Link>
+
+        <Link href="/links">
+          <a>Links</a>
         </Link>
       </div>
     </div>

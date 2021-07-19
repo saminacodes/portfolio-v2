@@ -2,7 +2,7 @@ export default [
   {
     title: "Educator",
     description:
-      "Working as a coding instructor for young students at various non-profit organizations including CodeClubs, Explora Science Center and Children's Museum, and Girl Scouts of NM Trails. Taught classes using Raspberry Pi, Arduino, Makey-Makey, Disney CodeIllusion, code.org, codehs.org, Scratch, and PICO-8.",
+      "Working as a coding instructor for young students at various non-profit organizations including CodeClubs, Explora Science Center and Children's Museum, and Girl Scouts of NM Trails. Taught classes using Raspberry Pi, Arduino, Makey-Makey, Disney CodeIllusion, micro:bit, code.org, codehs.org, Scratch, and PICO-8.",
     date: "August 2019 - Present",
     languages: ["Processing", "JavaScript", "HTML", "CSS"],
     frameworks: [],
