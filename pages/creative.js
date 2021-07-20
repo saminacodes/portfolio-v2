@@ -3,7 +3,7 @@ import Project from "../components/Project";
 
 const Creative = () => {
   return (
-    <div>
+    <div class="dark:bg-grey">
       {creativeData.map((project) => (
         <Project color="red" project={project} key={project.title} />
       ))}

@@ -4,7 +4,7 @@ import Footer from "../components/Footer.js";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="dark:bg-grey flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Samina's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -24,19 +24,19 @@ export default function Home() {
 
       <div className="flex flex-row">
         <Link href="/coding">
-          <a>Coding</a>
+          <a class="dark:text-white">Coding</a>
         </Link>
 
         <Link href="/creative">
-          <a>Creative</a>
+          <a class="dark:text-white">Creative</a>
         </Link>
 
         <Link href="/community">
-          <a>Community</a>
+          <a class="dark:text-white">Community</a>
         </Link>
 
         <Link href="/links">
-          <a>Links</a>
+          <a class="dark:text-white">Links</a>
         </Link>
       </div>
     </div>

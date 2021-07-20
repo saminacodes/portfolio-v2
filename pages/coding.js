@@ -3,7 +3,7 @@ import Project from "../components/Project";
 
 const Coding = () => {
   return (
-    <div>
+    <div class="dark:bg-grey">
       {codingData.map((project) => (
         <Project color="green" project={project} key={project.title} />
       ))}
