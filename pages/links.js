@@ -5,7 +5,7 @@ import profilePic from "../public/images/profile.jpg";
 
 const Links = () => {
   return (
-    <div className="flex flex-col justify-center min-h-screen py-2 p-16 dark:bg-grey">
+    <div className="flex flex-col justify-center min-h-screen py-2 p-16 dark:bg-grey space-y-4">
       {/* <Image
         src={profilePic}
         alt="picture of Samina"

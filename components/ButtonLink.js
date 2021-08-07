@@ -5,7 +5,7 @@ const ButtonLink = ({ btnLink }) => {
     <a
       href={btnLink.linkURL}
       target="_blank"
-      class="bg-transparent text-grey hover:text-grey py-2 px-4 border border-grey rounded p-4 dark:text-white dark:border-white"
+      class="bg-transparent text-grey hover:opacity-75 py-2 px-4 border border-grey rounded p-4 dark:text-white dark:border-white"
     >
       <Image
         src={hashnodeIcon}
