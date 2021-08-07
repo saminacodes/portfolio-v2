@@ -2,7 +2,7 @@ export default [
   {
     title: "Illustrator - Dark Mode Comics",
     description: "",
-    date: "June 2020 - Present",
+    date: "June 2021 - Present",
     demoLink: "https://twitter.com/DarkModeComics",
     imgUrl: "",
   },

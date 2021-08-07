@@ -11,7 +11,7 @@ const Project = ({ project, color }) => {
             color === "green" && "text-green",
             color === "red" && "text-red",
             color === "yellow" && "text-yellow",
-            "text-lg"
+            "text-xl"
           )}
         >
           {project.title}
@@ -20,12 +20,36 @@ const Project = ({ project, color }) => {
           <Image src={project.imgUrl} width={300} height={300} />
         )} */}
         {project.description && (
-          <p class="dark:text-white">Description: {project.description}</p>
+          <p class="dark:text-white">
+            <span
+              className={clsx(
+                color === "green" && "text-green",
+                color === "red" && "text-red",
+                color === "yellow" && "text-yellow"
+              )}
+            >
+              Description:{" "}
+            </span>
+            {project.description}
+          </p>
         )}
 
         <hr />
 
-        {project.date && <p class="dark:text-white">Date: {project.date}</p>}
+        {project.date && (
+          <p class="dark:text-white">
+            <span
+              className={clsx(
+                color === "green" && "text-green",
+                color === "red" && "text-red",
+                color === "yellow" && "text-yellow"
+              )}
+            >
+              Date:{" "}
+            </span>
+            {project.date}
+          </p>
+        )}
       </div>
     </div>
   );

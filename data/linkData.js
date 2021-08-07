@@ -6,6 +6,18 @@ export default [
     linkURL: "https://codeillusion.io/",
   },
   {
+    icon: "",
+    title: "JavaScript Coding Flashcards",
+    description: "Master Essential Coding Concepts with Syntax and Examples",
+    linkURL: "https://gumroad.com/a/691704947",
+  },
+  {
+    icon: "",
+    title: "Decentology",
+    description: "Get started with a blockchain app in under 15 minutes",
+    linkURL: "https://decentology.com",
+  },
+  {
     icon: "../public/hashnodeIcon",
     title: "Blog",
     description: "Coding and productivity",
