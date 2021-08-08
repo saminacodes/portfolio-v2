@@ -31,7 +31,7 @@ export default [
     linkURL: "https://twitter.com/darkmodedevs",
   },
   {
-    icon: "../public/hashnodeIcon",
+    icon: "/hashnodeIcon.svg",
     title: "Samina's Blog",
     description: "Posts about Web3, Productivity, and Women In Tech",
     linkURL: "https://samina.dev",
